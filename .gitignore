@@ -1,0 +1,58 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints*
+
+# Data files (large)
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.h5
+*.parquet
+*.pkl
+*.npy
+*.npz
+datasets/raw/
+!datasets/raw/README.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+
+# Kaggle
+.kaggle/
+kaggle.json
+
+# Misc
+*.bak
+*.swp
+*.tmp
