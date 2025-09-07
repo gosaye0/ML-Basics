@@ -12,7 +12,7 @@
 *.pkl
 *.npy
 *.npz
-datasets/raw/
+datasets/
 !datasets/raw/README.md
 
 # Python
